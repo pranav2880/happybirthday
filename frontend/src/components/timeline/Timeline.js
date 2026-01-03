@@ -4,8 +4,8 @@ import MomentCard from './MomentCard';
 import TimelineNav from './TimelineNav';
 
 const defaultMoments = [
-  { id: 'm1', year: '2025 sept ', title: 'First hello', description: 'The butterfly effect.', at: 0.12 },
-  { id: 'm2', year: '2025-21 dec', title: 'A core memory', description: 'We became “us”.', at: 0.36 },
+  { id: 'm1', year: '2025-21 Dec ', title: 'The first step', description: 'We became US.', at: 0.12 },
+  { id: 'm2', year: '2026-3 Jan', title: 'Our first kiss', description: 'The green signal to forever', at: 0.36 },
   { id: 'm3', year: '2026-7 Jan', title: 'The Beginning of something Sacred', description: 'We officially became What we always desired?', at: 0.62 },
   { id: 'm4', year: '2033', title: '7 years?', description: 'A joke that is not a joke anymore and feels like a promise.', at: 0.92 },
 ];
