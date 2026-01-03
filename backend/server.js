@@ -12,11 +12,12 @@ app.use(express.json());
 
 // API routes
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
-app.use('/api/messages', require('./routes/messageRoutes'));
-app.use('/api/songs', require('./routes/songRoutes'));
-app.use('/api/photos', require('./routes/photoRoutes'));
-app.use('/api/moments', require('./routes/momentRoutes'));
-app.use('/api/easter-egg', require('./routes/easterEggRoutes'));
+app.use('/api/messages', require('./routes/MessageRoutes'));
+app.use('/api/songs', require('./routes/SongRoutes'));
+app.use('/api/photos', require('./routes/PhotoRoutes'));
+app.use('/api/moments', require('./routes/MomentRoutes'));
+app.use('/api/easter-egg', require('./routes/easterEggRoutes')); // this one already matches
+
 
 // Health check
 app.get('/api/health', (req, res) => res.json({ ok: true }));
