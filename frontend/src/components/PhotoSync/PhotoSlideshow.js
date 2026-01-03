@@ -1,7 +1,7 @@
 import React from 'react';
 import PhotoCard from './PhotoCard';
 import { motion } from 'framer-motion';
-const BASE = "http://localhost:5000";
+const BASE = "https://happybirthday-veig.onrender.com";
 const PhotoSlideshow = ({ currentSong, photos }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

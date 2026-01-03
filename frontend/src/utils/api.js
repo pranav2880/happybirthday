@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const client = axios.create({
-  baseURL: "http://localhost:5000", // change if your backend port differs
+  baseURL: "https://happybirthday-veig.onrender.com", // change if your backend port differs
 });
 
 // Named exports (matches your imports)

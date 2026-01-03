@@ -11,19 +11,19 @@ const MusicPlayer = ({ currentSong, setCurrentSong }) => {
       id: 0,
       name: "505 💃",
       artist: "Arctic Monkeys",
-      src: "http://localhost:5000/uploads/songs/first.mp3",
+      src: "https://happybirthday-veig.onrender.com/uploads/songs/first.mp3",
     },
     {
       id: 1,
       name: "Midnight Promises 🌙",
       artist: "Heartbeats",
-      src: "http://localhost:5000/uploads/songs/midnight.mp3",
+      src: "https://happybirthday-veig.onrender.com/uploads/songs/midnight.mp3",
     },
     {
       id: 2,
       name: "Tu ♾️",
       artist: "Talwiinder",
-      src: "http://localhost:5000/uploads/songs/forever.mp3",
+      src: "https://happybirthday-veig.onrender.com/uploads/songs/forever.mp3",
     },
   ];
 

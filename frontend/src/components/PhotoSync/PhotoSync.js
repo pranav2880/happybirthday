@@ -7,19 +7,19 @@ import { Heart } from 'lucide-react';
 const PhotoSync = ({ currentSong }) => {
   const photoGroups = {
   0: [
-    "http://localhost:5000/uploads/photos/song1/photo1-1.jpg",
-    "http://localhost:5000/uploads/photos/song1/photo1-2.jpg",
-    "http://localhost:5000/uploads/photos/song1/photo1-3.jpg",
+    "https://happybirthday-veig.onrender.com/uploads/photos/song1/photo1-1.jpg",
+    "https://happybirthday-veig.onrender.com/uploads/photos/song1/photo1-2.jpg",
+    "https://happybirthday-veig.onrender.com/uploads/photos/song1/photo1-3.jpg",
   ],
   1: [
-    "http://localhost:5000/uploads/photos/song2/photo2-1.jpg",
-    "http://localhost:5000/uploads/photos/song2/photo2-2.jpg",
-    "http://localhost:5000/uploads/photos/song2/photo2-3.jpg",
+    "https://happybirthday-veig.onrender.com/uploads/photos/song2/photo2-1.jpg",
+    "https://happybirthday-veig.onrender.com/uploads/photos/song2/photo2-2.jpg",
+    "https://happybirthday-veig.onrender.com/uploads/photos/song2/photo2-3.jpg",
   ],
   2: [
-    "http://localhost:5000/uploads/photos/song3/photo3-1.jpg",
-    "http://localhost:5000/uploads/photos/song3/photo3-2.jpg",
-    "http://localhost:5000/uploads/photos/song3/photo3-3.jpg",
+    "https://happybirthday-veig.onrender.com/uploads/photos/song3/photo3-1.jpg",
+    "https://happybirthday-veig.onrender.com/uploads/photos/song3/photo3-2.jpg",
+    "https://happybirthday-veig.onrender.com/uploads/photos/song3/photo3-3.jpg",
   ],
 };
 
