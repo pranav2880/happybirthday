@@ -7,4 +7,4 @@ const photoSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now }
 });
 //update file name
-module.exports = mongoose.model('Photo', photoSchema);
+module.exports = mongoose.model('photo', photoSchema);
