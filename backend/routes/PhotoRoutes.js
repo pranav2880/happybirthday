@@ -1,5 +1,5 @@
 const express = require('express');
-const Photo = require('../models/Photo');
+const Photo = require('../models/photo');
 const router = express.Router();
 
 router.get('/', async (req, res) => {
