@@ -6,5 +6,5 @@ const photoSchema = new mongoose.Schema({
   url: { type: String, required: true },
   createdAt: { type: Date, default: Date.now }
 });
-
+//update file name
 module.exports = mongoose.model('Photo', photoSchema);
